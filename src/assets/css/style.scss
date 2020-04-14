@@ -846,7 +846,7 @@ Main Banner Area CSS
         size: cover;
         repeat: no-repeat;
     }
-    /*&::after {
+    &::after {
         content: '';
         position: absolute;
         left: 0;
@@ -859,7 +859,7 @@ Main Banner Area CSS
             image: url(../../assets/img/dots.png);
             repeat: repeat;
         }
-    }*/
+    }
     .bottom-bg {
         opacity: 1;
     }
@@ -1066,7 +1066,7 @@ Story Area CSS
 .story-image {
     .col-lg-6 {
         img {
-            margin-top: 47px;
+            margin-top: 30px;
             border-radius: 3px;
 
             &:nth-child(1) {
